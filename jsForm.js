@@ -13,7 +13,11 @@ const password_confirm_error = document.getElementById(
 );
 
 const setClass = (isValid, element) => {
-  element.valid = isValid;
+  if (isValid) {
+    element.setCustomValidity("");
+  } else {
+    element.setCustomValidity(".");
+  }
 };
 
 // Validation Checks //

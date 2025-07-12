@@ -22,7 +22,7 @@ form {
 }
 
 input:invalid {
-  background-color: lightpink;
+  background-color: rgb(247, 233, 235);
   border-color: red;
 }
 
