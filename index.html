@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Form Validation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="jsForm.js" defer></script>
+  </head>
+  <body>
+    <form novalidate>
+      <div class="form_field">
+        <label for="email">Email</label>
+        <input id="email" type="text" />
+        <span id="email_error" class="error"></span>
+      </div>
+      <div class="form_field">
+        <label for="country">Country</label>
+        <input id="country" type="text" />
+        <span id="country_error" class="error"></span>
+      </div>
+      <div class="form_field">
+        <label for="postcode">Postcode</label>
+        <input id="postcode" type="text" />
+        <span id="postcode_error" class="error"></span>
+      </div>
+      <div class="form_field">
+        <label for="password">Password</label>
+        <input id="password" type="text" />
+        <span id="password_error" class="error"></span>
+      </div>
+      <div class="form_field">
+        <label for="password_confirm">Confirm Password</label>
+        <input id="password_confirm" type="text" />
+        <span id="password_confirm_error" class="error"></span>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+body {
+  margin: 20px;
+  background-color: azure;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.form_field {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: 200px;
+}
+
+.form_field input {
+  background-color: honeydew;
+}
+
+input:invalid {
+  background-color: lightpink;
+  border-color: red;
+}
+
+input:valid {
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.error {
+  background-color: lightpink;
+  border: 1px solid indianred;
+  border-radius: 0 0 10px 10px;
+  display: none;
+  text-align: center;
+}
+
+button {
+  width: 200px;
+}
+
+.active {
+  display: block;
+}
